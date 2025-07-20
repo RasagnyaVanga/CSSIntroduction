@@ -8,22 +8,34 @@
     <link rel="stylesheet" href="mystyles.css">
     <style>
         #sec2 {
-            background-color: brown;
+            background-color:coral;
         }
     </style>
 </head>
 
 <body>
-    <section style="background-color: blue;"> <!--USING INLINE-->
-        <h2>HELLO WELCOMING YOU TO SECTION1</h2>
+    <section style="background-color:aqua"> <!--USING INLINE-->
+        <h2>HELLO WELCOMING YOU TO SECTION1 <em>(using inline)</em></h2>
+        <p>Inline CSS allows you to apply styles directly to an HTML element using the style attribute. This method is
+            useful for quick tests or when you want to apply a unique style to just one element. For example, you can
+            make a paragraph green by writing. However, inline CSS is not recommended for large projects because it clutters
+        the HTML and makes styles hard to maintain or reuse.</p>
     </section>
 
     <section id="sec2"> <!--USING INTERNAL-->
-        <h2>HELLO WELCOMING YOU TO SECTION2</h2>
+        <h2>HELLO WELCOMING YOU TO SECTION2 <em>(using internal)</em> </h2>
+        <p> Internal CSS is written within a style tag inside the head section of an HTML file. This method is best
+            suited for single-page documents where all styling is kept in the same file. It provides better organization
+            than inline CSS and allows you to apply styles to multiple elements using selectors.</p>
     </section>
 
     <section id="sec3"><!--USING EXTERNAL-->
-        <h2>HELLO WELCOMING YOU TO SECTION3</h2>
+        <h2>HELLO WELCOMING YOU TO SECTION3 <em>(using external)</em></h2>
+        <p>
+            External CSS involves writing styles in a separate .css file and linking it to your HTML using the link
+            tag. This is the most scalable and preferred method for real-world websites, as it separates structure
+            (HTML) from design (CSS). You only need to change the CSS file once to affect all linked pages.
+        </p>
     </section>
 
 </body>
