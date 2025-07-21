@@ -1,3 +1,4 @@
+/*element selector*/
 section{
     margin-top: 200px;
     background-color: lavender;
@@ -7,11 +8,18 @@ section{
 
 }
 
+/*id selector*/
+#heading{
+    color:brown;
+}
+
+
 .profile img{
     border-radius:50%;
     width: 700px;
 }
 
+/*class selector*/
 .content
 {
     font-size:18px;
