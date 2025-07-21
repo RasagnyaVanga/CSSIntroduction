@@ -33,6 +33,7 @@ section {
     display: flex;
     gap: 40px;
     align-items: center;
+    padding: 20px;
     /*center in height */
 }
 
@@ -42,6 +43,7 @@ section {
     display: flex;
     gap: 15px;
     align-items: center;
+    padding:20px;
 }
 
 .art h1 {
