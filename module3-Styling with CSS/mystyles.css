@@ -9,46 +9,46 @@ header {
     align-items: center;
     gap: 15px;
     text-align: center;
+    /* justify-content: center; */
 }
 
 .container img {
-    border-radius: 50%;   /* Makes the image circular */
+    border-radius: 50%;
+    /* Makes the image circular */
     width: 200px;
     height: 200px;
     object-fit: cover;
 }
 
-.container h1{
-    font-size : 70px ;
+.container h1 {
+    font-size: 70px;
     font-style: italic;
     font-weight: bold;
-    color:blueviolet;
+    color: blueviolet;
 }
 
-section{
-    background-color:lavender;
+section {
+    background-color: lavender;
     font-size: 20px;
-    display:flex;
-    gap:15px;
-    align-items: center;  /*center in height*/
+    display: flex;
+    gap: 40px;
+    align-items: center;
+    /*center in height */
 }
 
-.art{
-    background-color:lavender;
+.art {
+    background-color: lavender;
     font-size: 20px;
-    display:flex;
-    gap:15px;
+    display: flex;
+    gap: 15px;
     align-items: center;
 }
 
-.art h1{
-    color :brown;
+.art h1 {
+    color: brown;
 }
 
-.art img{
+.art img {
     height: 400px;
-    object-fit:cover ;
+    object-fit: cover;
 }
-
-
-
