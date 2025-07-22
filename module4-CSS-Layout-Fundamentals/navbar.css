@@ -1,4 +1,4 @@
-div {
+.nav-bar {
     display:flex; /*horizontal layout*/
     position: fixed; 
     top:0px; /*top of page*/
