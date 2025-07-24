@@ -1,22 +1,19 @@
 body {
 font-family: Arial, sans-serif;
 }
-.title {
-color: blue; 
-}
-#main-title {
+#main-title { 
 color: red;
 }
-.text {
+.text { 
 color: green;
 font-size: 16px;
 }
-.special-text {
-font-size: 18px; color: purple;
+.special-text { 
+font-size: 18px;
 }
-#first-paragraph {
+#first-paragraph { 
  color: orange;
 }
-.section .text {
+.section .text { 
 color: black; 
 }
