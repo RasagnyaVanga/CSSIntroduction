@@ -1,0 +1,66 @@
+header .container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+header {
+  background-color: lavender;
+  padding: 20px;
+  text-align: center;
+}
+header .container {
+  gap: 15px;
+}
+header .container img {
+  border-radius: 50%;
+  /* Makes the image circular */
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+}
+header .container h1 {
+  font-size: 70px;
+  font-style: italic;
+  font-weight: bold;
+  color: blueviolet;
+}
+
+section {
+  background-color: lavender;
+  font-size: 20px;
+  display: flex;
+  gap: 40px;
+  align-items: center;
+  /*center in height */
+  padding: 20px;
+}
+section #prof-img {
+  border-radius: 10px;
+  /*soft corner*/
+  box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.5);
+}
+
+.art {
+  background-color: lavender;
+  font-size: 20px;
+  display: flex;
+  gap: 15px;
+  align-items: center;
+  padding: 20px;
+}
+.art h1 {
+  color: brown;
+}
+.art img {
+  height: 400px;
+  /*operations on variables*/
+  border-radius: 10px;
+  object-fit: cover;
+}
+
+span {
+  padding: 1px;
+}
+
+/*# sourceMappingURL=blog.css.map */
