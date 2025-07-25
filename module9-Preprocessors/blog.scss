@@ -1,0 +1,78 @@
+$h: 200px;
+$w: 200px;
+$p: 20px;
+$color: lavender;
+
+%display-alignment {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header {
+    background-color: lavender;
+    padding: $p;
+    text-align: center;
+
+    .container {
+        @extend %display-alignment;
+        gap: 15px;
+
+        img {
+            border-radius: 50%;  /* Makes the image circular */
+            width: $w;
+            height: $h;
+            object-fit: cover;
+        }
+
+        h1 {
+            font-size: 70px;
+            font-style: italic;
+            font-weight: bold;
+            color: blueviolet;
+        }
+    }
+}
+
+
+
+
+section {
+    background-color: lavender;
+    font-size: 20px;
+    display: flex;
+    gap: 40px;
+    align-items: center; /*center in height */
+    padding: $p;
+
+    #prof-img {
+        border-radius: 10px;  /*soft corner*/
+        box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.5);
+    }
+}
+
+
+
+.art {
+    background-color: $color;
+    font-size: 20px;
+    display: flex;
+    gap: 15px;
+    align-items: center;
+    padding: $p;
+
+    h1 {
+        color: brown;
+    }
+
+    img {
+        height: $h+200;  /*operations on variables*/
+        border-radius: 10px;
+        object-fit: cover;
+    }
+}
+
+
+span {
+    padding: 1px;
+}
